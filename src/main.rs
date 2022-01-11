@@ -69,9 +69,9 @@ pub async fn get_status(
 async fn main() {
 
     if env::var_os("RUST_LOG").is_none() {
-        // Set `RUST_LOG=jwtd=debug` to see debug logs,
+        // Set `RUST_LOG=overseerd=debug` to see debug logs,
         // info - only shows access logs.
-        env::set_var("RUST_LOG", "jwtd=debug");
+        env::set_var("RUST_LOG", "overseerd=debug");
     }
     pretty_env_logger::init();
 

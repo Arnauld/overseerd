@@ -20,11 +20,11 @@
 
 ## Docker (or without rust env.) build
 
-      docker build -t technbolts/jwtd .
+      docker build -t technbolts/overseerd .
 
-      docker tag -i 7358d9f4b652 technbolts/jwtd:0.1.0
+      docker tag -i 7358d9f4b652 technbolts/overseerd:0.1.0
       docker login -u xxxx -p xxxx
-      docker push technbolts/jwtd:0.1.0
+      docker push technbolts/overseerd:0.1.0
 
 # Troubleshoots
 
